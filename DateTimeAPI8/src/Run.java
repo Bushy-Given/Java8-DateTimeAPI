@@ -10,5 +10,9 @@ public class Run {
         System.out.println("Yestaday     :"+yestaday);
         System.out.println("Tomorrow     :"+tomorrow);
 
+        //isLeapYear()
+        LocalDate d1 = LocalDate.of(2014,12,10);
+        System.out.println(d1+" is a Leap Year? :" + d1.isLeapYear());
+
     }
 }
