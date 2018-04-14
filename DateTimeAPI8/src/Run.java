@@ -3,8 +3,12 @@ import java.time.LocalDate;
 public class Run {
     public static void main(String[] args){
         LocalDate date = LocalDate.now();//get the current Date
-        System.out.println("Current Date :"+date);
+        LocalDate yestaday = date.minusDays(1);//subtract 1 day from current date
+        LocalDate tomorrow = date.plusDays(1);//add 1 day to current date
 
+        System.out.println("Today        :"+date);
+        System.out.println("Yestaday     :"+yestaday);
+        System.out.println("Tomorrow     :"+tomorrow);
 
     }
 }
