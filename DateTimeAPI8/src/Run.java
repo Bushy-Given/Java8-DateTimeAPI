@@ -14,5 +14,7 @@ public class Run {
         LocalDate d1 = LocalDate.of(2014,12,10);
         System.out.println(d1+" is a Leap Year? :" + d1.isLeapYear());
 
+        LocalDate d2 = LocalDate.of(2016,10,5);
+        System.out.println(d2+" is a Leap Year? :" + d2.isLeapYear());
     }
 }
