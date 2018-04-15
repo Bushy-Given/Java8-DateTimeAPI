@@ -25,5 +25,8 @@ public class Run {
         System.out.println(dateTime);
         System.out.println(date3.atTime(15, 30));
 
+        //now i have to create more time methods
+
+
     }
 }
